@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #E8E5C2;
+}
+
+header {
+    margin: 0px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #2CA35E, #043C1C);
+    text-align: center;
+    color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.473);
+}
+
+header > h1 {
+    padding: 30px;
+}
+
+
+#menu {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 40px;
+}
+#menu > li {
+    display: inline;
+
+}
+
+#menu > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 10px;
+}
+
+#menu > li > a:hover {
+    background-color: #36d177;
+    color: #1b663a;
+}
+
+main {
+    background-color: white;
+    margin: 0px 200px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+}
+
+main > article > h2 {
+    color: #06411F;
+    font-family: 'idroid';
+    margin: 20px;
+    font-weight: 300;
+    padding-left: 3px;
+    text-align: left;
+}
+
+.firsth2 {
+    font-size: 2em;
+}
+
+.backgreen {
+    background-image: linear-gradient(to right, #2cb86698, white);
+}
+
+main > article > p {
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+.spanlink > a{
+    text-decoration: none;
+    color: #06411F;
+    font-weight: 900;
+    background-color: #2cb86677;
+    padding: 2px;
+
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background-color: #80E1AA;
+    height: 300px;
+    border-radius: 10px;
+}
+
+section> h2 {
+    background-color: #08582a;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+section > div {
+    padding: 10px;
+}
