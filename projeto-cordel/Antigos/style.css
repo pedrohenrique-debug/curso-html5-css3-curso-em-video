@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Monoton&family=Passion+One:wght@700&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+
+header {
+    position: relative;
+    color: white;
+    background-color: black;
+    height: max(150px, 20vw);
+}
+
+header > section {
+    display: block;
+    position: relative;
+    max-height: 50%;
+    left: 50%;
+
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.titulo {
+    text-transform: inherit;
+
+    padding-top: 5%;
+    font-family: 'Passion One', cursive;
+    font-size: max(40px, 8vw);
+    font-style: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-style: bold;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+section.normal {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    height: max(300px, 60vw);
+    border: 10px solid black;
+}
+
+section.normal > p {
+    font-family: 'Sriracha', cursive;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 100%px;
+    height: 800px;
+    font-size: 56px;
+    line-height: 112px;
+    margin-bottom: 50px;
+}
+
+section.imagem {
+    padding-top: 100px;
+    padding-left: 50px;
+    height: 120vh;
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+}
+
+section.imagem p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+    font-family: 'Sriracha', cursive;
+    padding: 5px;
+    width: 700px;
+    height: 100vh;
+    font-size: 56px;
+    line-height: 112px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+}
+div {
+    box-sizing: border-box;
+    height: 60vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+section.normal2 > p {
+    font-family: 'Sriracha', cursive;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 100%px;
+    height: 800px;
+    font-size: 56px;
+    line-height: 112px;
+    margin-bottom: 50px;
+}
+
+
